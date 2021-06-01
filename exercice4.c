@@ -1,8 +1,16 @@
 #include <stdio.h>
 
+int fibonnacci(int n);
+
 int main(void){
+
     
-    int fibonnacci(int n)
+
+    int n = fibonnacci(7);
+    printf("fibbo(3) = %i\n", n);
+}
+
+int fibonnacci(int n)
     {
         if (n == 0) {
             return 0;
@@ -19,9 +27,5 @@ int main(void){
         }
         return f1;
     }
-
-    int n = fibonnacci(7);
-    printf("fibbo(3) = %i\n", n);
-}
 
 
