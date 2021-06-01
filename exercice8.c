@@ -13,6 +13,7 @@ int mylen(char* s) {
     while (s[compteur] != '\0')
     {
         compteur += 1;
+        printf("done");
     }
     return compteur;
 }
