@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Déclaration de fonction
 void sommeTableau(int tab1[], int tab2[], int result[], int lenght);
 void print_tableau(int tab[50], int lenght);
 
@@ -13,6 +14,7 @@ int main(void)
     print_tableau(result, 3);
 }
 
+// Définition de fonction
 void sommeTableau(int tab1[], int tab2[], int result[],int lenght) {
     
     for (int i = 0; i < lenght; i++)
