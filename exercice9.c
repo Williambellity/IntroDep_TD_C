@@ -18,9 +18,9 @@ int main(void) {
     }
 }
 
-int mylen(char* s) {
+int mylen(char s[]) {
     int compteur = 0;
-    while (s[compteur] != '\0')
+    while (s[compteur])
     {
         compteur += 1;
     }
