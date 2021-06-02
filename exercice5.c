@@ -16,7 +16,7 @@ int main(void) {
     print_tableau(tab, 50);
 }
 
-void print_tableau(int tab[50], int lenght) {
+void print_tableau(int tab[], int lenght) {
     printf("[");
     for (int i = 0; i < lenght - 1; i++) {
         printf("%i, ", tab[i]);
