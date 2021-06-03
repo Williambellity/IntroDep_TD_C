@@ -8,16 +8,17 @@ int nombreOccurence(char occ, char *s);
 int main(void) {
     char s[] = "Bonjour";
     int lenght = mylen(s);
-    char *ps = malloc(lenght * sizeof(char));
+    char *ps = malloc((lenght+1) * sizeof(char));
     putChaineInCharStar(s, ps, lenght);
     printf("ps = %s\n", ps);
     printf("Nombre d'occurence de o dans %s: %i\n", s, nombreOccurence('o', s));
 }
 
 void putChaineInCharStar(char s[], char *ps, int lenght) {
-    for (int i = 0; i < lenght; i++) {
+    for (int i = 0; i <= lenght; i++) {
         *(ps + i) = s[i];
     }
+    
 
 }
 
