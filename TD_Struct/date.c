@@ -13,7 +13,6 @@ Date *create_date(int day, int month, int year) {
 }
 
 void print_date(Date *date) {
-    printf("%i/%i/%i\n", date->day, date->month, date->year);
-
+    printf("%i/%i/%i", date->day, date->month, date->year);
 }
 
